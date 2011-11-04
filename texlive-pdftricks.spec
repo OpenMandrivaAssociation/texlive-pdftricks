@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/pdftricks
+# catalog-date 2008-11-24 12:47:54 +0100
+# catalog-license gpl
+# catalog-version 1.16
 Name:		texlive-pdftricks
 Version:	1.16
 Release:	1
@@ -49,6 +55,7 @@ documentation.
 %doc %{_texmfdistdir}/doc/latex/pdftricks/pst2pdf
 %doc %{_texmfdistdir}/doc/latex/pdftricks/test.pdf
 %doc %{_texmfdistdir}/doc/latex/pdftricks/test.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
