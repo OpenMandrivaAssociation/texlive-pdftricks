@@ -6,7 +6,7 @@
 # catalog-version 1.16
 Name:		texlive-pdftricks
 Version:	1.16
-Release:	7
+Release:	8
 Summary:	Support for pstricks in pdfTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdftricks
