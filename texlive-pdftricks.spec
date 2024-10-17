@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Support for pstricks in pdfTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdftricks
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pdftricks
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftricks.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftricks.doc.r%{version}.tar.xz
